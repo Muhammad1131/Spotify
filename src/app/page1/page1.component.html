@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #content {
+            width:auto;
+            margin-left: 0px;
+            padding: 60px;
+            transition: margin-left 0.3s;
+            position: relative;
+            background: linear-gradient(to bottom, #0f1024, #000);
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div id="content">
+    
+        <h1>Spotify Playlists</h1>
+        <h1></h1>
+        <br><br>
+
+        <div class="row">
+            <div class="column">
+                <img [src]="image1" width = "250" height="250" >
+                <p>Anime songs</p>
+                <p style="color: gray;">Top Anime Openings from the....</p>
+            </div>
+            <div class="column">
+                <img [src]="image2" width = "250" height="" >
+                <p>Mega Hit Mix</p>
+                <p style="color: gray;">Top 40 songs of 2022-2023</p>
+            </div>
+            <div class="column">
+                <img [src]="image3" width = "250" height="" >
+                <p>Top Rap Songs</p>
+                <p style="color: gray;">Top 100 Rap Songs of 2023</p>
+            </div>
+            <div class="column">
+                <img [src]="image4" width = "250" height="" >
+                <p>Top 80s-90s Songs</p>
+                <p style="color: gray;">Top 100 (80s-90s) Songs</p>
+            </div>
+            <div class="column">
+                <img [src]="image5" width = "250" height="200" >
+                <p>Ava Max - So Am I (Lyrics)</p>
+                <p style="color: gray;">7clouds - 46M views - 4 years ago</p>
+            </div>
+            <div class="column">
+                <img [src]="image6" width = "250" height="200" >
+                <p>Bee Gees - Stayin' Alive</p>
+                <p style="color: gray;">beegees - 345M views - 6 years ago</p>
+            </div>
+            <div class="column">
+                <img [src]="image7" width = "250" height="200" >
+                <p>BENEE - Supalonely ft. Gus Dapperton</p>
+                <p style="color: gray;">BENEE - 314M views - 3 years ago</p>
+            </div>
+            <div class="column">
+                <img [src]="image8" width = "250" height="200" >
+                <p>The Weeknd - Can't Feel My Face</p>
+                <p style="color: gray;">The Weeknd - 1.3B views - 8 years ago</p>
+            </div>
+        </div>
+
+    </div>
+
+    <br><br>
+
+</body>
+</html>
